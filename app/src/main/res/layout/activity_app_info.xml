@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.datasyn.transcreator.AppInfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Buttons Information"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        />
+    <ImageButton
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_menu_add"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/textViewtr"
+        android:layout_alignStart="@+id/buttoncnvrt"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/imageButton2" />
+    <Button
+        android:id="@+id/buttoncnvrt"
+        android:layout_width="50dp"
+        android:text="convert"
+        android:textSize="9dp"
+        android:textColor="@android:color/white"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_menu_trans"
+        android:scaleType="fitXY"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="161dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonclr"
+        android:layout_width="50dp"
+        android:text="convert"
+        android:textSize="9dp"
+        android:textColor="@android:color/white"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_menu_clear"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/buttoncnvrt"
+        android:layout_alignStart="@+id/buttoncnvrt" />
+
+    <Button
+        android:id="@+id/button_share"
+        android:layout_width="50dp"
+        android:text="convert"
+        android:textSize="9dp"
+        android:textColor="@android:color/white"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_menu_save"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/buttonclr"
+        android:layout_alignStart="@+id/buttonclr" />
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_menu_share_file"
+        android:scaleType="fitXY"
+        android:background="@drawable/circle"
+        android:layout_below="@+id/button_share"
+        android:layout_alignStart="@+id/button_share"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Imeges"
+        android:layout_marginStart="52dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:layout_marginTop="14dp"        />
+    <TextView
+        android:id="@+id/textViewtr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert Your Text in Thai"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="52dp"
+        android:layout_alignTop="@+id/buttoncnvrt"
+        android:layout_toEndOf="@+id/buttoncnvrt"
+        android:layout_marginTop="14dp" />
+    <TextView
+        android:id="@+id/textViewclr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Text"
+        android:textColor="@color/colorPrimary"
+        android:layout_above="@+id/button_share"
+        android:layout_alignStart="@+id/textViewsave"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:id="@+id/textViewsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Your Data in .DOC File"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignTop="@+id/button_share"
+        android:layout_alignStart="@+id/textViewtr"
+        android:layout_marginTop="10dp" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Your File"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignStart="@+id/textViewsave"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Got It"
+        android:background="@drawable/circle"
+        android:textColor="@android:color/white"
+
+        android:id="@+id/btnGotit"
+        />
+</RelativeLayout>

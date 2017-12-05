@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/dialog_txt_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:padding="5dp"
+        android:text="Cancel"
+        android:layout_alignTop="@+id/btn_login"
+        android:layout_alignEnd="@+id/dialog_txt_name"
+        android:layout_marginEnd="23dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+
+        android:padding="5dp"
+        android:text="OK"
+        android:textColor="#ffffff"
+        android:layout_marginStart="34dp"
+        android:layout_below="@+id/dialog_txt_name"
+        android:layout_alignStart="@+id/dialog_txt_name"
+        android:layout_marginTop="33dp" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TransCreator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Help</string>
+
+    <string name="email_admin">eatlab@gmail.com</string>
+    <string name="title_feedback">Feedback on Transcreator</string>
+
+    <string name="share_app_desc">An easy way to translate! #Transcreator https://play.google.com/store/apps/details?id=transcreator </string>
+    <string name="desc_app_version">App version :&#160;</string>
+    <string name="desc_device_info">Device info :&#160;</string>
+    <string name="intent_desc_link">Complete action using</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Camera</string>
+    <string name="slide_1_desc">Capture your image from camera!</string>
+
+    <string name="slide_2_title">Gallery</string>
+    <string name="slide_2_desc">Select source image from phone gallery!</string>
+
+    <string name="slide_3_title">Convert</string>
+    <string name="slide_3_desc">Convert your English text into Thai!</string>
+
+    <string name="slide_4_title">Save and Share</string>
+    <string name="slide_4_desc">Save your text into document and share it!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_user_translation">Quick Translation</string>
+    <string name="title_activity_appInfo">Information</string>
+    <string name="edHint">Enter Your Text Here!</string>
+    <string name="detector_error">Could not set up the detector!</string>
+    <string name="apiKey">your API Key</string>
+    <string name="title_activity_edit">EditActivity</string>
+</resources>
